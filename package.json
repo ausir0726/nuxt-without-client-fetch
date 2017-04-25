@@ -1,0 +1,47 @@
+{
+  "name": "nuxt-without-client-fetch",
+  "version": "1.0.0",
+  "description": "FINPO project",
+  "author": "ausir <ausir@finpo.com.tw>",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.1",
+    "bootstrap": "4.0.0-alpha.6",
+    "nuxt": "latest",
+    "snifferjs": "^2.2.0"
+  },
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "9000"
+    }
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt generate",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "serverbuild": "nuxt build",
+    "lint": "eslint --ext .js,.vue --ignore-path .eslintignore .",
+    "precommit": "npm run lint"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-import-resolver-webpack": "^0.8.1",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-html": "^2.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-promise": "^3.4.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "node-sass": "^4.5.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-beta11",
+    "pug-loader": "^2.3.0",
+    "sass-loader": "^6.0.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
+  }
+}
