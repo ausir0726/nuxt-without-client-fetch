@@ -5,5 +5,10 @@ install:
   - yarn
 script:
   - yarn lint
-  - yarn run build
+  
+deploy:
+  provider: script
+  script: - yarn run build
+  on:
+    branch: deploy
 
