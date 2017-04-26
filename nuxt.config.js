@@ -1,6 +1,9 @@
 const axios = require('axios');
 
 module.exports = {
+
+
+  
   generate: {
     async routes() {
       const { data } = await axios.get('https://jsonplaceholder.typicode.com/posts');
