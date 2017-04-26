@@ -5,7 +5,7 @@
   "author": "ausir <ausir@finpo.com.tw>",
   "private": true,
   "engines": {
-    "node": 7
+    "node": "7"
   },
   "dependencies": {
     "axios": "^0.16.1",
