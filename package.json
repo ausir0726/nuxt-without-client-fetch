@@ -4,6 +4,9 @@
   "description": "FINPO project",
   "author": "ausir <ausir@finpo.com.tw>",
   "private": true,
+  "engines": {
+    "node": 7
+  },
   "dependencies": {
     "axios": "^0.16.1",
     "bootstrap": "4.0.0-alpha.6",
