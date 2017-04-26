@@ -18,7 +18,7 @@
   },
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt generate",
+    "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "serverbuild": "nuxt build",
