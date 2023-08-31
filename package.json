@@ -11,7 +11,8 @@
     "axios": "^0.16.1",
     "bootstrap": "4.0.0-alpha.6",
     "nuxt": "latest",
-    "snifferjs": "^2.2.0"
+    "snifferjs": "^2.2.0",
+    "@snyk/protect": "latest"
   },
   "config": {
     "nuxt": {
@@ -26,7 +27,9 @@
     "generate": "nuxt generate",
     "serverbuild": "nuxt build",
     "lint": "eslint --ext .js,.vue --ignore-path .eslintignore .",
-    "precommit": "npm run lint"
+    "precommit": "npm run lint",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
@@ -46,5 +49,6 @@
     "sass-loader": "^6.0.3",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1"
-  }
+  },
+  "snyk": true
 }
