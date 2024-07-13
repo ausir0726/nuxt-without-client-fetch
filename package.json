@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "axios": "^0.16.1",
-    "bootstrap": "4.0.0-alpha.6",
+    "bootstrap": "5.0.0",
     "nuxt": "latest",
     "snifferjs": "^2.2.0"
   },
