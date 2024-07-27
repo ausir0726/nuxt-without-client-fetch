@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "axios": "^0.16.1",
-    "bootstrap": "4.0.0-alpha.6",
-    "nuxt": "latest",
+    "bootstrap": "4.0.0",
+    "nuxt": "3.0.0",
     "snifferjs": "^2.2.0"
   },
   "config": {
