@@ -10,7 +10,7 @@
   "dependencies": {
     "axios": "^0.16.1",
     "bootstrap": "4.0.0-alpha.6",
-    "nuxt": "latest",
+    "nuxt": "3.12.4",
     "snifferjs": "^2.2.0"
   },
   "config": {
